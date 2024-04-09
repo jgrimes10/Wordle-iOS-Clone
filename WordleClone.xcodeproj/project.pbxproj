@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00022EA2BC505FA00ABED66 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022E92BC505FA00ABED66 /* Statistic.swift */; };
+		D00022EC2BC507E700ABED66 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022EB2BC507E700ABED66 /* StatsView.swift */; };
+		D00022EE2BC50E0900ABED66 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022ED2BC50E0900ABED66 /* UIWindow+Extension.swift */; };
+		D00022F02BC5102600ABED66 /* ColorSchemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022EF2BC5102600ABED66 /* ColorSchemeManager.swift */; };
+		D00022F22BC510DE00ABED66 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022F12BC510DE00ABED66 /* SettingsView.swift */; };
+		D00022F42BC5165800ABED66 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022F32BC5165800ABED66 /* HelpView.swift */; };
+		D00022F62BC57B3300ABED66 /* UbiquitousStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00022F52BC57B3300ABED66 /* UbiquitousStore.swift */; };
+		D02DD4022BC42F1E00F4B507 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DD4012BC42F1E00F4B507 /* LetterButtonView.swift */; };
+		D02DD4042BC4368200F4B507 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DD4032BC4368200F4B507 /* KeyboardView.swift */; };
 		D0B6F55E2BC3BEC90060D5C2 /* WordleCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F55D2BC3BEC90060D5C2 /* WordleCloneApp.swift */; };
-		D0B6F5602BC3BEC90060D5C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F55F2BC3BEC90060D5C2 /* ContentView.swift */; };
+		D0B6F5602BC3BEC90060D5C2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F55F2BC3BEC90060D5C2 /* GameView.swift */; };
 		D0B6F5622BC3BECA0060D5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B6F5612BC3BECA0060D5C2 /* Assets.xcassets */; };
 		D0B6F5652BC3BECA0060D5C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B6F5642BC3BECA0060D5C2 /* Preview Assets.xcassets */; };
+		D0B6F5732BC3C49E0060D5C2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F5722BC3C49E0060D5C2 /* Color+Extension.swift */; };
+		D0B6F5762BC3C5880060D5C2 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F5752BC3C5880060D5C2 /* Guess.swift */; };
+		D0B6F5792BC3C6550060D5C2 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F5782BC3C6550060D5C2 /* GuessView.swift */; };
+		D0BE7F192BC3C8E600D3818F /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE7F182BC3C8E600D3818F /* WordleDataModel.swift */; };
+		D0BE7F1B2BC3C99E00D3818F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE7F1A2BC3C99E00D3818F /* Global.swift */; };
+		D0EEB55B2BC4410600032E16 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEB55A2BC4410600032E16 /* Shake.swift */; };
+		D0EEB55D2BC460F800032E16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEB55C2BC460F800032E16 /* FlipView.swift */; };
+		D0EEB55F2BC4E60A00032E16 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEB55E2BC4E60A00032E16 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00022E92BC505FA00ABED66 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		D00022EB2BC507E700ABED66 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		D00022ED2BC50E0900ABED66 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		D00022EF2BC5102600ABED66 /* ColorSchemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeManager.swift; sourceTree = "<group>"; };
+		D00022F12BC510DE00ABED66 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D00022F32BC5165800ABED66 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		D00022F52BC57B3300ABED66 /* UbiquitousStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbiquitousStore.swift; sourceTree = "<group>"; };
+		D00022F72BC57CB000ABED66 /* WordleClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordleClone.entitlements; sourceTree = "<group>"; };
+		D02DD4012BC42F1E00F4B507 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
+		D02DD4032BC4368200F4B507 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		D0B6F55A2BC3BEC90060D5C2 /* WordleClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B6F55D2BC3BEC90060D5C2 /* WordleCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleCloneApp.swift; sourceTree = "<group>"; };
-		D0B6F55F2BC3BEC90060D5C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0B6F55F2BC3BEC90060D5C2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		D0B6F5612BC3BECA0060D5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B6F5642BC3BECA0060D5C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B6F5722BC3C49E0060D5C2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D0B6F5752BC3C5880060D5C2 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		D0B6F5782BC3C6550060D5C2 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		D0BE7F182BC3C8E600D3818F /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		D0BE7F1A2BC3C99E00D3818F /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		D0EEB55A2BC4410600032E16 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		D0EEB55C2BC460F800032E16 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		D0EEB55E2BC4E60A00032E16 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +86,13 @@
 		D0B6F55C2BC3BEC90060D5C2 /* WordleClone */ = {
 			isa = PBXGroup;
 			children = (
+				D00022F72BC57CB000ABED66 /* WordleClone.entitlements */,
+				D0EEB5592BC440FB00032E16 /* Animations */,
+				D0BE7F172BC3C8DA00D3818F /* ViewModels */,
+				D0B6F5772BC3C60E0060D5C2 /* Views */,
+				D0B6F5742BC3C5720060D5C2 /* Models */,
+				D0B6F5712BC3C4920060D5C2 /* Extensions */,
 				D0B6F55D2BC3BEC90060D5C2 /* WordleCloneApp.swift */,
-				D0B6F55F2BC3BEC90060D5C2 /* ContentView.swift */,
 				D0B6F5612BC3BECA0060D5C2 /* Assets.xcassets */,
 				D0B6F5632BC3BECA0060D5C2 /* Preview Content */,
 			);
@@ -65,6 +105,59 @@
 				D0B6F5642BC3BECA0060D5C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0B6F5712BC3C4920060D5C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0B6F5722BC3C49E0060D5C2 /* Color+Extension.swift */,
+				D00022ED2BC50E0900ABED66 /* UIWindow+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0B6F5742BC3C5720060D5C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0B6F5752BC3C5880060D5C2 /* Guess.swift */,
+				D0BE7F1A2BC3C99E00D3818F /* Global.swift */,
+				D00022E92BC505FA00ABED66 /* Statistic.swift */,
+				D00022F52BC57B3300ABED66 /* UbiquitousStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0B6F5772BC3C60E0060D5C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0B6F55F2BC3BEC90060D5C2 /* GameView.swift */,
+				D0B6F5782BC3C6550060D5C2 /* GuessView.swift */,
+				D02DD4012BC42F1E00F4B507 /* LetterButtonView.swift */,
+				D02DD4032BC4368200F4B507 /* KeyboardView.swift */,
+				D0EEB55E2BC4E60A00032E16 /* ToastView.swift */,
+				D00022EB2BC507E700ABED66 /* StatsView.swift */,
+				D00022F12BC510DE00ABED66 /* SettingsView.swift */,
+				D00022F32BC5165800ABED66 /* HelpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0BE7F172BC3C8DA00D3818F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE7F182BC3C8E600D3818F /* WordleDataModel.swift */,
+				D00022EF2BC5102600ABED66 /* ColorSchemeManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0EEB5592BC440FB00032E16 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D0EEB55A2BC4410600032E16 /* Shake.swift */,
+				D0EEB55C2BC460F800032E16 /* FlipView.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +230,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B6F5602BC3BEC90060D5C2 /* ContentView.swift in Sources */,
+				D02DD4022BC42F1E00F4B507 /* LetterButtonView.swift in Sources */,
+				D0EEB55D2BC460F800032E16 /* FlipView.swift in Sources */,
+				D00022F02BC5102600ABED66 /* ColorSchemeManager.swift in Sources */,
+				D00022F62BC57B3300ABED66 /* UbiquitousStore.swift in Sources */,
+				D0B6F5602BC3BEC90060D5C2 /* GameView.swift in Sources */,
+				D0B6F5792BC3C6550060D5C2 /* GuessView.swift in Sources */,
+				D00022F22BC510DE00ABED66 /* SettingsView.swift in Sources */,
+				D0EEB55F2BC4E60A00032E16 /* ToastView.swift in Sources */,
+				D02DD4042BC4368200F4B507 /* KeyboardView.swift in Sources */,
+				D0B6F5762BC3C5880060D5C2 /* Guess.swift in Sources */,
+				D0B6F5732BC3C49E0060D5C2 /* Color+Extension.swift in Sources */,
+				D0EEB55B2BC4410600032E16 /* Shake.swift in Sources */,
+				D0BE7F192BC3C8E600D3818F /* WordleDataModel.swift in Sources */,
 				D0B6F55E2BC3BEC90060D5C2 /* WordleCloneApp.swift in Sources */,
+				D00022F42BC5165800ABED66 /* HelpView.swift in Sources */,
+				D00022EE2BC50E0900ABED66 /* UIWindow+Extension.swift in Sources */,
+				D0BE7F1B2BC3C99E00D3818F /* Global.swift in Sources */,
+				D00022EC2BC507E700ABED66 /* StatsView.swift in Sources */,
+				D00022EA2BC505FA00ABED66 /* Statistic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +379,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordleClone/WordleClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordleClone/Preview Content\"";
+				DEVELOPMENT_TEAM = FK6TFWF4AL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,9 +409,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordleClone/WordleClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordleClone/Preview Content\"";
+				DEVELOPMENT_TEAM = FK6TFWF4AL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
